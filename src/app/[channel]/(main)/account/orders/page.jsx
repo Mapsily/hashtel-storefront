@@ -1,20 +1,11 @@
 "use client";
 
-import { useEffect, useState } from "react";
-import { useUser } from "@clerk/nextjs";
+import { useState } from "react";
 
 import Order from "./components/order";
-import { fetchUserOrders } from "../../../../api/order";
-
 
 export default function Orders() {
-  const { user } = useUser();
   const [orders, setOrders] = useState([]);
-
-  useEffect(() => {
-    if (!user) return;
-    fetchUserOrders(user.id).then(setOrders);
-  }, [user]);
 
   return (
     <div className="w-full flex flex-col gap-10">

@@ -1,4 +1,4 @@
-import CategoryProducts from "./category-products";
+
 import Banner from "./banner";
 
 const SHOW_CATEGORIES = 3;
@@ -25,7 +25,7 @@ export default async function CategoryListings() {
             />
           </div>
         )}
-        {categories[idx] && <CategoryProducts category={categories[idx]} />}
+  
       </>
     ));
 }
