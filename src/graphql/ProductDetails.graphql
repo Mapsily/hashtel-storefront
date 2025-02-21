@@ -1,0 +1,28 @@
+query ProductDetails($slug: String!, $channel: String!) {
+  product(slug: $slug, channel: $channel) {
+    id
+    slug
+    name
+    description
+    seoTitle
+    seoDescription
+    rating
+    thumbnail(size: 1024, format: WEBP) {
+      url
+      alt
+    }
+    collections {
+      id
+      slug
+      name
+    }
+    category {
+      id
+      name
+      slug
+    }
+    variants {
+      ...VariantDetails
+    }
+  }
+}

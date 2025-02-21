@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "hashtel-ecom",
+  "private_key_id": "c54dfdad1c0ae520e9a3b70fb587273e963d7486",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCqWw0/ucLEdXhE\nM3OZPx/67wl/wqdMZ7CZNcHUeH/UAthKMuS+pAuTka/MVoni3FhM3TOysXWTxSaf\ni2IWQYpebl4jauqDwEBuNV7f4lFzURlFabjP+JSFRdKTBgTDByIwyzvJONghxtNt\n08vRnqsgJOqqEwztQsmzjkCiayGdQMW6L67pnGQolQNfzKnCwRk5CRwx8OrbZW0W\n9kCLJp9gsERMX9XNccdcVzgcKx8UU+kZnS98w1mGRLxTiNJ4ZbVpz+cO5MsuaaRN\n6NEP5uLd+kCNvVlcUaO03nns9pNyTEnl2HOdjrs9Qw5fdC4sPI8E5W17fH+I+b4W\ntE39XTfzAgMBAAECggEADwDt7criiIMAEKGncLvKiUM8RvBR47zOJPBDHf9u4rFN\nc1uAIfo4usp9/TUx97UIYdypjPdsL5ORj0OrY+Jp2V9HEz97YBcylYJF1NoN6mYe\nH6rsCAUQr5wyq5hAGx0pubpsjZBgGLl2LZoVvWSIFdCqikgbP1o+gX3p22QsFblV\nyVnxTWHWKf1Kd7MLIbufEGNbVPialueJWkZ/gWL5qjQEEYpv2yaHBnoDSGTHs7hU\nx+WMPkRIZ9+GeyZyKeUrJ//7b7vCC2sanvPMCoOPhPLarZwpR8rwBEaxd8oWIvjE\n9Fy4//o2fTAakX4j95jaTjPR3Yp6rRHADV1oDx4IIQKBgQDAtnyUaJUMpGwS1sny\n2X/wORnjrPob7LQCs7mKYXHmcEA/J+tl5CjNh8CfqCq10jrlh2qi7S0XLY/ijpE0\nRgIuUT3zfkmGKQoQHnhr3/2ejdzIppsVYiM8rqx+oIIYcS2jSPkBN4OteuwA6CMN\n4G0Ma5SvfGXdmeD+G+wdTLKgBQKBgQDiTPsw4yxwt0cUJntnZdmyIsbIvNm7neDF\nrCiV4TaglP9xStdedHHcVgzZRx1TD1uFEaaRW/AWKjqDE1cuxPUiGVFmXE6M6Gem\nMJLbank7a4ITSrYYg6m1pqEjozo0hsGxNQPBUG8uEvIeP8G3MYSPPJ0zvDCzsd84\nTTZMKkaRlwKBgQCG3e93yW0uSM+dq5XvkAm6a6vTq5Xp/xDHp1HdJ28X70z3Jg/W\n4gMwO6Yx1fX2AyfWxJt7ZHMe+nLtAgtawvf5xD+P7by02HnDaB+slzieQvfVsMtt\n/p1cdX4grGH/iw1+ba5eDKTpvtH1nIAT0RFgFNYcrfl4SZ2tGIt4wdlspQKBgQDX\nrBw9lFRXPCTurFoxydy2q/QdffZYm3eLjK7FYPVKB5aHZ5doOrwFDLGEJgVpkppb\ncN35bNCcnzRSlY0iUq15CP4N+u0V16xos6RSnt/ZZHV8Y1i2dky4hYzPRRIE22Uf\nuPHSPBEprP65G3RIXlYCmPcNRk54A45Evzl/T08gEwKBgQC4/DYHMv9Q30WjgLmu\nVJswcr+EMilv0BL3suLVjhWA0niFGQK5qLJ/Dl0OoMvLG1Jm3ZcBYM8djOAiIpCH\nYV5ueCzv7Y0Ov+EmEK5mXEpZH9S4tPYoBpFdHT68dtjGWhbh9Fa+yUuKQ5Zbgyn3\nOxTqLuNFh/G0276YbndhhKhN0A==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-umky3@hashtel-ecom.iam.gserviceaccount.com",
+  "client_id": "104044915116753024117",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-umky3%40hashtel-ecom.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

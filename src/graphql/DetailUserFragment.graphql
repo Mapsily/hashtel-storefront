@@ -1,0 +1,38 @@
+fragment UserDetails on User {
+  id
+  email
+  firstName
+  lastName
+  defaultShippingAddress {
+    id
+    streetAddress1
+    streetAddress2
+    city
+    countryArea
+    country {
+      country
+    }
+    postalCode
+    isDefaultShippingAddress
+  }
+  defaultBillingAddress {
+    id
+    streetAddress1
+    streetAddress2
+    city
+    countryArea
+    country {
+      country
+    }
+    postalCode
+    isDefaultBillingAddress
+  }
+  metadata {
+    key
+    value
+  }
+  avatar {
+    url
+    alt
+  }
+}

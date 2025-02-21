@@ -1,0 +1,15 @@
+query ProductListByCategory($slugs: [String!]) {
+  categories(filter: { slugs: $slugs }, first: 10) {
+    edges {
+      node {
+        products(first: 10, channel: "default-channel") {
+          edges {
+            node {
+              ...ProductListItem
+            }
+          }
+        }
+      }
+    }
+  }
+}

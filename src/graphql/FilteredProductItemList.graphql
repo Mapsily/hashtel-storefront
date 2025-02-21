@@ -1,0 +1,30 @@
+query FilteredProductItemList(
+  $channel: String!
+  $slugs: [ID!]
+  $gte: Float
+  $lte: Float
+  $sortBy: OrderDirection!
+  $after: String
+  $search: String
+) {
+  products(
+    first: 10
+    channel: $channel
+    filter: { categories: $slugs, price: { gte: $gte, lte: $lte } }
+    search: $search
+    sortBy: { direction: $sortBy, field: NAME }
+    after: $after
+  ) {
+    edges {
+      node {
+        ...ProductListItem
+      }
+    }
+    pageInfo {
+      hasNextPage
+      hasPreviousPage
+      startCursor
+      endCursor
+    }
+  }
+}

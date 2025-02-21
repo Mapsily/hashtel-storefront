@@ -1,0 +1,9 @@
+query ProductCategoryList {
+  categories(first: 10) {
+    edges {
+      node {
+        ...ProductCategoryItem
+      }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+query ProductListItemBySlug($slug: String!) {
+  product(slug: $slug, channel: "default-channel") {
+    ...ProductListItem
+  }
+}

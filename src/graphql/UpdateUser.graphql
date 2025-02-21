@@ -1,0 +1,12 @@
+mutation UpdateUser($id: ID, $updates: AccountInput!) {
+  accountUpdate(customerId: $id, input: $updates) {
+    user {
+      id
+    }
+    errors {
+      message
+      field
+      code
+    }
+  }
+}

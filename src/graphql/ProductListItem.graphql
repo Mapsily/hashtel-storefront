@@ -1,0 +1,29 @@
+fragment ProductListItem on Product {
+  id
+  name
+  slug
+  rating
+  defaultVariant {
+    id
+    media {
+      id
+      url
+      alt
+    }
+    pricing {
+      price {
+        gross {
+          amount
+        }
+      }
+      priceUndiscounted {
+        gross {
+          amount
+        }
+      }
+    }
+  }
+  category {
+    name
+  }
+}
